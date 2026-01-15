@@ -3,19 +3,19 @@
 import PackageDescription
 
 let package = Package(
-    name: "swift-package-template",
+    name: "MobileFuseSDK",
     platforms: [.iOS(.v13)],
     products: [
         .library(
-            name: "swift-package",
-            targets: ["swift-package-xcframework"],
+            name: "MobileFuseSDK",
+            targets: ["MobileFuseSDK"],
         ),
     ],
     targets: [
         .binaryTarget(
-            name: "swift-package-xcframework",
-            url: "https://path-to-xcframework",
-            checksum: "8675309",
+            name: "MobileFuseSDK",
+            url: "https://cdn.mobilefuse.com/sdk/1.9.3.zip",
+            checksum: "cee2b9a134c8aa16e0312997ede0e4087fc9f24eabfaeaef2e54793285f52e9d",
         ),
     ]
 )
