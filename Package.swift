@@ -15,7 +15,7 @@ let package = Package(
         .binaryTarget(
             name: "MobileFuseSDK",
             url: "https://cdn.mobilefuse.com/sdk/1.10.0.zip",
-            checksum: "d4e52da60461f006390924ceda81cd23bd3270a647a1096224f2354128bfdee5",
+            checksum: "96e670ac46fffb29dbbb94622abf69bed21751ceb8273b53e85c8ce27ac8a0a8",
         ),
     ]
 )
